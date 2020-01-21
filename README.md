@@ -32,4 +32,5 @@ User trying to stay on track with fitness goals could set tasks each week for th
 runs. At the start of the week they would add their goals and each time they went to the gym they would add progress to
 completing that task. Over time they would gain levels while reaching their fitness goals.
 
-Kid keeping track of weekly chores. 
+A kid could keep track of their weekly chores. They would be able to easily check what still needs to be done and update it as
+the week progresses. At the end of the week they would gain a level and would be able to customize their buddy over time.
