@@ -7,7 +7,7 @@ Planner that allows you to set tasks for the week. Each task is assigned a locat
 completed the task without being there. Upon completion you're shown a visual representation of your progress. Once you complete
 your weekly goals you gain a level, if you fail to complete them you lose a level. What makes this app different from other
 planners is the rpg aspect where by completing tasks you level up your buddy and unlock new cosmetic upgrades. You can
-compare with friends to see how productive and consistent you are at completing goals using the leaderboard.
+compare with friends to see how productive and consistent you are at completing goals.
 
 ### UI Prototype
 
