@@ -11,6 +11,11 @@ compare with friends to see how productive and consistent you are at completing 
 
 ### UI Prototype
 
+[Main Screen](sc1.png)
+
+[Buddy Screen](sc2.png)
+
+[New Task Screen](sc3.png)
 
 ### Navigating the App
 
