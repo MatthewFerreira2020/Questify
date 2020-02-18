@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83F5062E23F33F0F0038C883 /* ButtonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F5062D23F33F0F0038C883 /* ButtonFunctions.swift */; };
 		9FB252F723D7A68F0091C996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB252F623D7A68F0091C996 /* AppDelegate.swift */; };
 		9FB252F923D7A68F0091C996 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB252F823D7A68F0091C996 /* ViewController.swift */; };
 		9FB252FC23D7A68F0091C996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB252FA23D7A68F0091C996 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		9FB2530123D7A6900091C996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB252FF23D7A6900091C996 /* LaunchScreen.storyboard */; };
 		9FB2530C23D7A6900091C996 /* QuestifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB2530B23D7A6900091C996 /* QuestifyTests.swift */; };
 		9FB2531723D7A6900091C996 /* QuestifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB2531623D7A6900091C996 /* QuestifyUITests.swift */; };
+		C9568E8B23F32AC000B6E7C4 /* RPGBuddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9568E8A23F32AC000B6E7C4 /* RPGBuddy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83F5062D23F33F0F0038C883 /* ButtonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFunctions.swift; sourceTree = "<group>"; };
 		9FB252F323D7A68F0091C996 /* Questify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB252F623D7A68F0091C996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FB252F823D7A68F0091C996 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		9FB2531223D7A6900091C996 /* QuestifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB2531623D7A6900091C996 /* QuestifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestifyUITests.swift; sourceTree = "<group>"; };
 		9FB2531823D7A6900091C996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9568E8A23F32AC000B6E7C4 /* RPGBuddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGBuddy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				9FB252F623D7A68F0091C996 /* AppDelegate.swift */,
+				C9568E8A23F32AC000B6E7C4 /* RPGBuddy.swift */,
 				9FB252F823D7A68F0091C996 /* ViewController.swift */,
 				9FB252FA23D7A68F0091C996 /* Main.storyboard */,
 				9FB252FD23D7A6900091C996 /* Assets.xcassets */,
 				9FB252FF23D7A6900091C996 /* LaunchScreen.storyboard */,
 				9FB2530223D7A6900091C996 /* Info.plist */,
+				83F5062D23F33F0F0038C883 /* ButtonFunctions.swift */,
 			);
 			path = Questify;
 			sourceTree = "<group>";
@@ -258,6 +264,11 @@
 			files = (
 				9FB252F923D7A68F0091C996 /* ViewController.swift in Sources */,
 				9FB252F723D7A68F0091C996 /* AppDelegate.swift in Sources */,
+<<<<<<< HEAD
+				83F5062E23F33F0F0038C883 /* ButtonFunctions.swift in Sources */,
+=======
+				C9568E8B23F32AC000B6E7C4 /* RPGBuddy.swift in Sources */,
+>>>>>>> 9ad0d1abec28c7762654957d33cd88f89f3cc2b1
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
