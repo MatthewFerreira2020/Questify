@@ -265,11 +265,7 @@
 				9FB252F923D7A68F0091C996 /* ViewController.swift in Sources */,
 				9FB252F723D7A68F0091C996 /* AppDelegate.swift in Sources */,
 <<<<<<< HEAD
-<<<<<<< HEAD
 				83F5062E23F33F0F0038C883 /* ButtonFunctions.swift in Sources */,
-=======
-				C9568E8B23F32AC000B6E7C4 /* RPGBuddy.swift in Sources */,
->>>>>>> 9ad0d1abec28c7762654957d33cd88f89f3cc2b1
 =======
 				C9568E8B23F32AC000B6E7C4 /* RPGBuddy.swift in Sources */,
 >>>>>>> 9ad0d1abec28c7762654957d33cd88f89f3cc2b1
