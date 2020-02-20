@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8302D6AC23FE68BB001C2DFE /* UIFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6AB23FE68BB001C2DFE /* UIFunctions.swift */; };
 		8302D6AE23FE6A16001C2DFE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6AD23FE6A16001C2DFE /* Task.swift */; };
+		8302D6C123FEC5A5001C2DFE /* UITools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8302D6C023FEC5A5001C2DFE /* UITools.swift */; };
 		9FB252F723D7A68F0091C996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB252F623D7A68F0091C996 /* AppDelegate.swift */; };
 		9FB252F923D7A68F0091C996 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB252F823D7A68F0091C996 /* ViewController.swift */; };
 		9FB252FC23D7A68F0091C996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB252FA23D7A68F0091C996 /* Main.storyboard */; };
@@ -37,8 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8302D6AB23FE68BB001C2DFE /* UIFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFunctions.swift; path = ../../../../../Desktop/Questify/Questify/UIFunctions.swift; sourceTree = "<group>"; };
 		8302D6AD23FE6A16001C2DFE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		8302D6BF23FEC561001C2DFE /* UIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIFunctions.swift; path = ../../../../Desktop/Questify/Questify/UIFunctions.swift; sourceTree = "<group>"; };
+		8302D6C023FEC5A5001C2DFE /* UITools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITools.swift; sourceTree = "<group>"; };
 		9FB252F323D7A68F0091C996 /* Questify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB252F623D7A68F0091C996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FB252F823D7A68F0091C996 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 		9FB252EA23D7A68F0091C996 = {
 			isa = PBXGroup;
 			children = (
+				8302D6BF23FEC561001C2DFE /* UIFunctions.swift */,
 				9FB252F523D7A68F0091C996 /* Questify */,
 				9FB2530A23D7A6900091C996 /* QuestifyTests */,
 				9FB2531523D7A6900091C996 /* QuestifyUITests */,
@@ -103,11 +105,11 @@
 		9FB252F523D7A68F0091C996 /* Questify */ = {
 			isa = PBXGroup;
 			children = (
+				8302D6C023FEC5A5001C2DFE /* UITools.swift */,
 				9FB252F623D7A68F0091C996 /* AppDelegate.swift */,
 				9FB252F823D7A68F0091C996 /* ViewController.swift */,
 				9FB252FA23D7A68F0091C996 /* Main.storyboard */,
 				9FB252FD23D7A6900091C996 /* Assets.xcassets */,
-				8302D6AB23FE68BB001C2DFE /* UIFunctions.swift */,
 				9FB252FF23D7A6900091C996 /* LaunchScreen.storyboard */,
 				9FB2530223D7A6900091C996 /* Info.plist */,
 				C9973F2D23FC873600BCD843 /* RPGBuddy.swift */,
@@ -267,9 +269,9 @@
 			files = (
 				9FB252F923D7A68F0091C996 /* ViewController.swift in Sources */,
 				9FB252F723D7A68F0091C996 /* AppDelegate.swift in Sources */,
+				8302D6C123FEC5A5001C2DFE /* UITools.swift in Sources */,
 				8302D6AE23FE6A16001C2DFE /* Task.swift in Sources */,
 				C9973F2E23FC873600BCD843 /* RPGBuddy.swift in Sources */,
-				8302D6AC23FE68BB001C2DFE /* UIFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
