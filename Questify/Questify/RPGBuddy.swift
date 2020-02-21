@@ -13,6 +13,7 @@ class RPGBuddy: SKSpriteNode {
     
     var experience = 0
     var level = 0
+    var requiredExperience = 0
     
     init(){
     let texture = SKTexture(imageNamed: "Buddy")
@@ -24,21 +25,48 @@ class RPGBuddy: SKSpriteNode {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func increaseExperience (numberOfTasks: Int) {
+    func taskComplete (numberOfTasks: Int) {
         experience += 100 * numberOfTasks
         levelUp()
     }
     
+    func taskCompleteWithDifficulty(taskDifficulty: Int){
+        experience += 25 * taskDifficulty
+        levelUp()
+    }
+    
     func levelUp (){
-        let requiredExperience = level * 500
+        requiredExperience = (level + 1) * 500
         if experience >= requiredExperience {
             level += 1
             experience -= requiredExperience
         }
     }
     
-    func changeImage (imageName: String){
-        self.texture = SKTexture(imageNamed: imageName)
+    func changeImage (imageName: String, requiredLevel: Int){
+        
+        if level >= requiredLevel{
+            self.texture = SKTexture(imageNamed: imageName)
+        }
+    }
+    
+    func progressToNextLevel () -> Float{
+        
+        var progress: Float = 0.0
+        let exp = Float(experience)
+        let requiredExp = Float(requiredExperience)
+        
+        requiredExperience = (level + 1) * 500
+        progress = exp / requiredExp
+        return progress
+    }
+    
+    func getLevel () -> Int{
+        return level;
+    }
+    
+    func getExperience () -> Int{
+        return experience;
     }
     
     
